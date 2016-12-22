@@ -1,0 +1,273 @@
+    @import url(https://fonts.googleapis.com/css?family=Asap);
+    @font-face {
+        font-family: "Coolvetica";
+        src: url("fonts/coolvetica_rg.ttf");
+    }
+    
+    body {
+        background-image: url("../images/body_bg.gif");
+    }
+    .wrapper {
+        width: 940px;
+        margin: 0 auto;
+    }
+
+/*----------------------------------------------------    HEADER     -------------------------------------------------------------------*/
+
+    .links {
+        float:right;
+        margin-right: 18px;
+        margin-top:25px;
+    }
+
+    .links a {
+        margin-left: 7px;
+    }
+
+    .logo {
+        font-family: "Coolvetica";
+        font-size: 53px;
+        width:180px;
+        line-height:44px;
+        color:#292929;
+        float:left;       
+    }
+    
+    span {
+        color:#01a5ca;
+    }
+
+    .menu {
+        padding-top: 50px;
+        margin-left: 50px;
+        text-align: right;
+        width: 920px;
+    }
+    .menu ul {
+        margin-bottom: 0px;
+    }
+
+
+    .menu ul li {
+        display: inline; 
+
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        font-family: 'Asap', sans-serif;
+        font-size: 17px;
+        color: #292929;
+        margin-right: 45px;  
+        width: 45px;
+        height: 15px;   
+    }
+
+    .menu ul li a:hover {
+        color:#01a5ca; 
+    }
+/*----------------------------------------------------    HEADER     -------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------    CONTENT     -------------------------------------------------------------------*/
+
+    .jointeam {
+        width:940px;
+        height: 415px;
+        margin: 35px 0px;
+        background-image: url("../images/joinus_bg.gif");
+        background-repeat: no-repeat;
+        background-color:#292929;
+    }
+    .jointeam span {
+        font-family: 'Asap', sans-serif;
+        font-size: 45px;
+        line-height: 40px;
+        color: #01a5ca;
+        width: 200px;
+        float: right;
+        margin: 50px 55px 0px 0px;
+        
+
+    }
+    .jointeam p {
+        font-family: 'Asap', sans-serif;
+        font-size: 17px;
+        line-height: 28px;
+        color: #fff;
+        width: 180px;
+        height: 140px;
+        float: right;
+        clear: both;
+        overflow: hidden;
+        margin: 35px 75px 0px 0px;
+        opacity: 0.6;
+    }
+    .jointeam button {
+        float: right;
+        clear: both;
+        margin: 20px 120px 0px 0px;
+        font-size: 14px;
+        font-family: 'Asap', sans-serif; 
+        width: 132px;
+        height: 43px;
+        overflow: hidden;
+        line-height: 28px;
+        background-color: #3f3f3f;
+        color:white;
+        border:0px;
+    }
+
+    .info {
+        margin: 35px 0px;
+        width: 940px;
+        background-color: #fff;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -o-box-sizing:border-box;
+            
+    }
+
+    .info p {
+        padding: 35px 45px;
+        background-color: #fff;
+        font-family: 'Asap', sans-serif;
+        font-size: 17px;
+        line-height: 33px;
+        text-align: justify;  
+        overflow: hidden; 
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -o-box-sizing:border-box;
+    }
+
+    .info a {
+        color:#01a5ca;
+        text-decoration: none;
+    }
+
+
+    .latestEvents {
+        width: 940px;
+        height: 450px;
+        background-color: #ffffff;
+        margin-top: 35px;
+    }
+
+    .latestEvent {
+        float:left;
+        width: 640px;
+        height: 415px;
+        margin-top: 35px;
+        overflow: hidden;
+    }
+
+    .servicesList {
+        width: 300px;
+        float: right;
+        height: 415px;
+        margin-top: 35px;
+        overflow: hidden;
+    }
+
+    .latestEvent div {
+        margin-left: 45px;
+        font-family: 'Asap', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        float: left;
+        color:#01a5ca;
+    }
+
+    .servicesList div {
+        padding-left: 30px;
+        font-family: 'Asap', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        color:#01a5ca;
+    }
+
+    .latestEvent div span, .servicesList div span {
+        color: #292929;
+    }
+
+    .latestEvent img {
+        float: left;
+        clear: left;
+        margin: 20px 30px 0px 45px; 
+    }
+
+    .latestEvent p {
+        float: left;
+        width: 350px;
+        height: 120px;
+        line-height: 25px;
+        font-family: Arial;
+        font-size: 14px;
+        text-align: left;
+        overflow: hidden;
+        margin: 8px 0px 0px 0px;
+    }
+
+    .latestEvent h5 {
+        float: left;
+        width: 350px;
+        height: 20px;
+        margin: 25px 0px 0px 0px;
+        font-family: Arial;
+        font-size: 14px;
+        overflow: hidden;   
+    }
+
+    .servicesList ul {
+         padding-left: 45px;
+         list-style-image: url("../images/list_img.gif");
+         font-size: 14px;
+         font-family: Arial;
+         color:#292929;
+         line-height: 30px;
+    }
+
+    .servicesList li {
+         height: 30px;
+    }
+
+    .servicesList input {
+        margin: 23px 0px 0px 30px;
+        padding: 10px 14px;
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 30px;
+        opacity: 0.4;
+        width: 160px;
+    }
+    
+    .button {
+        width: 108px;
+        height: 43px;
+        color:#01a5ca;
+        border:0px;
+    }
+
+
+
+
+/*----------------------------------------------------    CONTENT     -------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------    FOOTER     -------------------------------------------------------------------*/
+
+    .vault p {
+        text-align: center;
+        margin: 20px 0px;
+        font-size: 14px;
+        font-family: Arial;
+        line-height: 25px;
+    }
+
+    .vault a {
+        text-decoration: none;
+        color:#01a5ca;
+    }
+
+/*----------------------------------------------------    FOOTER     -------------------------------------------------------------------*/
